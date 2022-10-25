@@ -1,36 +1,43 @@
 # Kotlin Fundamentals Cheat Sheet
+## Kotlin Fundamentals cheat sheet
 
-## Variables
+### Variables
 
 |             | Desc                |
-| ----------- |:-------------------:|
+| ----------- | ------------------- |
 | Val         | Immuable variable   | 
 | var         | Muable variable     |
 | ${vari­able} | Calling a variable  |
 
-## Output and Input
+### Output and Input
 
 |               | Desc                                       | Example                         |
-| ------------- |:------------------------------------------:| -------------------------------:|
+| ------------- | ------------------------------------------ | ------------------------------- |
 | print()       | Print on the line                          | print(­"­Hello World !")          |
 | println()     | Print on the line and go back to the line  | printl­n("Hello World !")        |
 | readLine()    | Function to read the enter of the user     | var hello: String = readLine()  |
 
-## Functions
+### Functions
 
-|               | Desc                                             | Example                                    |
-| ------------- |:------------------------------------------------:| ------------------------------------------:|
-| fun           | Keyword for initia­lizing a function              |                                            |
-| hello         | Name of the function                             |                                            |
-| ()            | Parameters (varia­bles)                           |                                            |
-| {}            | Content of the function                          |                                            |
-| return        | Return the value of the function (not required)  |                                            |
-| function()    | call the function                                | `fun hello () { printl­n("hello world")}`   |
+|               | Desc                                             | 
+| ------------- | ------------------------------------------------ | 
+| fun           | Keyword for initia­lizing a function              |                                            
+| hello         | Name of the function                             |                                            
+| ()            | Parameters (varia­bles)                           |                                            
+| {}            | Content of the function                          | 
+| return        | Return the value of the function (not required)  |  
+| function()    | call the function                                |  
 
-## Data Types
+```java
+    fun hello () { 
+    printl­n("hello world")
+}
+```
+
+### Data Types
 
 |                            | Desc                                       | Type Spescification                          |
-| -------------------------- |:------------------------------------------:| --------------------------------------------:|
+| -------------------------- |------------------------------------------  | -------------------------------------------- |
 | var foo: String = "­hel­lo"  | Variable with data type specif­ication      |                                              |
 | : Int                      | Int (Integer)                              | -32 768 to 32 767                            |
 | : Byte                     | Byte (Integer)                             | -128 to 127                                  |

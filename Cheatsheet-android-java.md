@@ -29,7 +29,7 @@
 | function()    | call the function                                |  
 
 ```java
-    fun hello () { 
+fun hello () { 
     printl­n("hello world")
 }
 ```
